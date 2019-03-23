@@ -1,0 +1,29 @@
+form {
+	width: 400px;
+	padding: 30px;
+	border: 1px solid black;
+}
+h3{
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+input{
+	width: 200px;
+	height: 30px;
+	padding:5px;
+	margin-bottom: 5px;
+}
+input[type=text] {
+	font-size: 20px;
+	background: blue;
+	color: #fff;
+}
+input[type=password] {
+	font-size: 10px;
+	background: green;
+	color: red;
+}
+input[type=button] {
+	width: 80px;
+	margin-left: 60px;
+}
