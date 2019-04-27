@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Arial';
+}
+body{
+	background: #dedede;
+}
+
+#box-login{
+	margin:0 auto;
+	margin-top: 12.5%;
+	width: 25%;
+	background: #fff;
+}
+
+form{
+	padding:15px;
+	border: 1px solid #000;
+	margin:0 auto;
+	text-align: center;
+}
+
+form > label{
+	font-weight: bold;
+	font-size: 25px;
+	border-bottom: 2px solid #000;
+}
+
+input{
+	padding:10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+a.btn{
+	width: 100%;
+	display: block;
+}
+.btn{
+	padding: 10px;
+	width: 100%;
+	background: #29bace;
+	border:none;
+	font-weight: bold;
+	color: #fff;
+}
+.btn:hover{
+	cursor: pointer;
+	color: #333;
+	background: #18cbdf;
+	transition:  0.25s;
+}
